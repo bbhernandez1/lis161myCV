@@ -3,7 +3,7 @@
 	margin-bottom: 50px;
 }
 .jumbotron {
-	background-color: #afeeee;
+	background-color: #2e8b57;
 	color: #ffffff;
 }
 #email {
@@ -27,7 +27,7 @@ h6 {
 #footer {
 	position: relative;
 	height: 50px;
-	background-color: #afeeee;
+	background-color: #2e8b57;
 	font-size: 14px;
 	text-align: center;
 	color: #ffffff;
