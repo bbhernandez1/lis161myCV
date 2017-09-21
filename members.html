@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalopsia</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<img id="bannerhead" src="images/bannerhead.jpg">
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<a class="navbar-brand" href="index.html">
+		<img src="images/qotsa.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+		QOTSA
+		</a>
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="members.html">Members <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="discography.html">Discography</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">About the Site</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<article>
+	<img id="mems" src="images/mems.png"></img>
+	<p id=lineup>&nbsp &nbsp &nbsp Josh Homme has been the only consistent member of the band since its formation, and the group's lineup has changed many times. This list is composed of band members who have played live with the band for a substantial period, and does not include guest performances and one-off substitutes. The list also is limited to the instruments the respective members play live, and does not include additional instruments members play occasionally in the studio. </p>
+    <label for="membersx">MEMBERS</label>
+	<select id="membersx" onchange="memberStatus()">
+      <option value="">--Choose an option--</option>
+      <option value="current">Current</option>
+      <option value="former">Former</option>
+      <option value="all">All</option>
+    </select>
+	
+	<p id="roster"></p>
+	</article>
+	
+	<div id="footer" class="container">
+			<p><b></b>Last update: September 2017 | Bryan Frero John B. Hernandez | Gonzales Hall, University of the Philippines Diliman, Diliman, Quezon City</b></p>
+	</div>
+	
+	<script src="scripts.js"></script>
+</body>
+</html>

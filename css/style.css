@@ -1,0 +1,93 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+#bannerhead {
+	width:100%;
+}
+
+#about {
+	border: 2px solid #b6003a;
+	width: 130px;
+	height: 130px;
+	border-radius: 65px;
+}
+
+.navbar {
+	background-color: #650020;	
+}
+
+.jumbotron {
+	background-image: url(../images/villainsbanner.jpg);
+	max-width: 960px;
+	padding: 20px;
+    margin: 0 auto;
+}
+
+#news {
+	width: 450px;
+	padding: 20px;	
+}
+
+article {
+	max-width: 650px;
+    padding: 20px;
+    margin: 0 auto;
+	text-align: justify;
+}
+
+#lineup {
+	padding: 20px;
+}
+
+button.accordion {
+    background-color: #ff033e;
+    color: black;
+	width: 100%;
+    cursor: pointer;
+	padding: 18px;
+    border: none;
+    text-align: left;
+    outline-style: solid;
+    font-size: 15px;
+    transition: 0.4s;
+}
+button.accordion:hover {
+    background-color: #b6003a;
+}
+
+#mems {
+	padding: 20px;
+	max-width: 680px;
+	height: 340px;
+	outline-style: solid;
+	outline-color: #ff033e;
+}
+
+#albumArt {
+	padding: 18px;
+	width: 300px;
+	height: 300px;
+}
+
+div.panel {
+    padding: 0 18px;
+    max-height: 0;
+	overflow: hidden;
+}
+
+td {
+	text-align: right;
+}
+
+#footer {
+	padding: 1rem;
+	text-align: center;
+	position: bottom;
+	height: 50px;
+	background-color: #ff033e;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
