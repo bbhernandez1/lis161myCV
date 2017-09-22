@@ -31,8 +31,8 @@
 	</nav>
 	<article>
 		<h3>Studio Albums</h3>
-		<button class="accordion">Queens of the Stone Age (1998)</button>
-		<div class="panel">
+		<button class="accordion" onClick="openPanel('panel1', this)">Queens of the Stone Age (1998)</button>
+		<div class="panel" id="panel1">
 			<img id="albumArt" src="images/qotsaalbm.jpg">
 			<table>
 				<tr>
@@ -53,35 +53,141 @@
 				</tr>
 				</table>
 		</div>
-		<button class="accordion"></button>
-		<div class="panel">
+		<button class="accordion" onClick="openPanel('panel2', this)">Rated R (2000)</button>
+		<div class="panel" id="panel2">
+			<img id="albumArt" src="images/ratedr.png">
+			<table>
+				<tr>
+					<th>Released</th>
+					<td>June 6, 2000</td>
+				</tr>
+				<tr>
+					<th>Recorded</th>
+					<td>December 1999 - February 2000</td>
+				</tr>
+				<tr>
+					<th>Length</th>
+					<td>42:10</td>
+				</tr>
+				<tr>
+					<th>Label</th>
+					<td>Interscope</td>
+				</tr>
+			</table>
 		</div>
-		<!--<ul>
-			<li><a href="#qotsa">Queens of the Stone Age (1998)</a></li>
-			<li><a href="#ratedr">Rated R (2000)</a></li>
-			<li><a href="#deaf">Songs for the Deaf (2002)</a></li>
-			<li><a href="#lullabies">Lullabies to Paralyze (2005)</a></li>
-			<li><a href="#era">Era Vulgaris (2007)</a></li>
-			<li><a href="#clockwork">...Like Clockwork (2013)</a></li>
-			<li><a href="#villains">Villains (2017)</a></li>
-		</ul>-->
+		<button class="accordion" onClick="openPanel('panel3', this)">Songs for the Deaf (2002)</button>
+		<div class="panel" id="panel3">
+			<img id="albumArt" src="images/deaf.png">
+			<table>
+				<tr>
+					<th>Released</th>
+					<td>August 27,2002</td>
+				</tr>
+				<tr>
+					<th>Recorded</th>
+					<td>Octoer - November 2001, March - June 2002</td>
+				</tr>
+				<tr>
+					<th>Length</th>
+					<td>60:53</td>
+				</tr>
+				<tr>
+					<th>Label</th>
+					<td>Interscope</td>
+				</tr>
+			</table>
+		</div>
+		<button class="accordion" onClick="openPanel('panel4', this)">Lullabies to Paralyze (2005)</button>
+		<div class="panel" id="panel4">
+			<img id="albumArt" src="lullabies.jpg">
+			<table>
+				<tr>
+					<th>Released</th>
+					<td>March 21, 2005</td>
+				</tr>
+				<tr>
+					<th>Recorded</th>
+					<td>August - November 2004</td>
+				</tr>
+				<tr>
+					<th>Length</th>
+					<td>59:26</td>
+				</tr>
+				<tr>
+					<th>Label</th>
+					<td>Interscope</td>
+				</tr>
+			</table>
+		</div>
+		<button class="accordion" onClick="openPanel('panel5', this)">Era Vulgaris (2007)</button>
+		<div class="panel" id="panel5">
+			<img id="albumArt" src="images/era.jpg">
+			<table>
+				<tr>
+					<th>Released</th>
+					<td>June 12, 2007</td>
+				</tr>
+				<tr>
+					<th>Recorded</th>
+					<td>July 2006 - April 2007</td>
+				</tr>
+				<tr>
+					<th>Length</th>
+					<td>47:53</td>
+				</tr>
+				<tr>
+					<th>Label</th>
+					<td>Interscope | Rekords Rekords</td>
+				</tr>
+			</table>
+		</div>
+		<button class="accordion" onClick="openPanel('panel6', this)">...Like Clockwork (2013)</button>
+		<div class="panel" id="panel6">
+			<img id="albumArt" src="images/likeclockwork.png">
+			<table>
+				<tr>
+					<th>Released</th>
+					<td>June 3, 2013</td>
+				</tr>
+				<tr>
+					<th>Recorded</th>
+					<td>August 9, 2012 - March 9, 2013</td>
+				</tr>
+				<tr>
+					<th>Length</th>
+					<td>45:59</td>
+				</tr>
+				<tr>
+					<th>Label</th>
+					<td>Matador</td>
+				</tr>
+			</table>
+		</div>
+		<button class="accordion" onClick="openPanel('panel7', this)">Villains (2017)</button>
+		<div class="panel" id="panel7">
+			<img id="albumArt" src="villains.png">
+			<table>
+				<tr>
+					<th>Released</th>
+					<td>August 25, 2017</td>
+				</tr>
+				<tr>
+					<th>Recorded</th>
+					<td>January - March 2017</td>
+				</tr>
+				<tr>
+					<th>Length</th>
+					<td>48:00</td>
+				</tr>
+				<tr>
+					<th>Label</th>
+					<td>Matador</td>
+				</tr>
+			</table>
+		</div>
 	</article>
-	<!--<script>
-	var acc = document.getElementsByClassName("accordion");
-	var i;
-
-	for (i = 0; i < acc.length; i++) {
-		acc[i].onclick = function() {
-		this.classList.toggle("active");
-		var panel = this.nextElementSibling;
-		if (panel.style.maxHeight){
-		panel.style.maxHeight = null;
-		} else {
-		panel.style.maxHeight = panel.scrollHeight + "px";
-		} 
-	}
-	}
-	</script>-->
+	
+	<script type="text/javascript" src="scripts.js"></script>
 	
 	<div id="footer" class="container">
 			<p><b></b>Last update: September 2017 | Bryan Frero John B. Hernandez | Gonzales Hall, University of the Philippines Diliman, Diliman, Quezon City</b></p>
