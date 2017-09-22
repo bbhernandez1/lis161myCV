@@ -21,6 +21,8 @@ III. References
   
   www.w3schools.com
   www.stackoverflow.com
+  https://getbootstrap.com/docs/4.0/getting-started/introduction/
+  
   
   Images:
   https://pbs.twimg.com/profile_images/850078094786306048/xQqLxqiu.jpg
@@ -28,4 +30,6 @@ III. References
   https://consequenceofsound.files.wordpress.com/2017/06/screen-shot-2017-06-14-at-10-38-22-am.png?w=807
   https://en.wikipedia.org/wiki/Queens_of_the_Stone_Age
 
-  
+  Project Schedule: Planning: Sept. 15, 2017
+                    Data gathering: Sept. 18, 2017
+                    Development: Sept. 18-21, 2017
