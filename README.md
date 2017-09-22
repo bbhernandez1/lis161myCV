@@ -2,7 +2,7 @@ Website Title: Kalopsia: A QotSA fansite
 
 This is a fansite for the band called The Queens of the Stone Age. This website seeks to inform the viewer about the details surrounding the band. I have chosen this topic because I am an avid fan of the band.
 
-Developer: Bryan Frero John B. Hernandez
+Developer: Bryan Frero John B. Hernandez Email: bbhernandez1@up.edu.ph
 
 Intended User: Music enthusiasts, fans of QotSA
 
