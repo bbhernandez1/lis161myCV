@@ -3,6 +3,11 @@ body{
 	color: white;
 }
 
+#brandpic {
+	width: 30px;
+	height: 30px;
+}
+
 #bannerhead {
 	width:100%;
 }
