@@ -73,8 +73,7 @@ button.accordion:hover {
 
 div.panel {
     padding: 0 18px;
-    max-height: 0;
-	overflow: hidden;
+	display: none;
 }
 
 td {
