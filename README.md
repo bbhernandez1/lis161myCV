@@ -15,7 +15,7 @@ About the Site
 
 II. Functional Requirements
 
-  secure pages, author messaging
+  link to affiliate sites, author messaging
   
 III. References
   
