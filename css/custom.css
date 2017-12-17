@@ -1,0 +1,181 @@
+body {
+	background-color: black;
+	color: white;
+	font-size: 120%;
+}
+label {
+	color: black;
+}
+#searchform{
+	width: 50%;
+	border: 20px;
+	border-radius: 1px;
+	padding: 5px;
+}
+.well {
+	background-color: white;
+	color: black;
+}
+
+#black {
+	color: black;
+}
+
+#bannerhead {
+	width:100%;
+}
+
+#about {
+	border: 2px solid #b6003a;
+	width: 130px;
+	height: 130px;
+	border-radius: 65px;
+}
+
+.navbar {
+	background-color: #650020;	
+}
+
+.jumbotron {
+	background-image: url(../images/rakrakanbanner.jpg);
+	max-width: 960px;
+	padding: 20px;
+    margin: 0 auto;
+}
+
+#news {
+	width: 450px;
+	padding: 20px;	
+}
+
+article {
+	max-width: 650px;
+    padding: 20px;
+    margin: 0 auto;
+	text-align: justify;
+}
+
+#lineup {
+	padding: 20px;
+}
+
+button.accordion {
+    background-color: #ff033e;
+    color: black;
+	width: 100%;
+    cursor: pointer;
+	padding: 18px;
+    border: none;
+    text-align: left;
+    outline-style: solid;
+    font-size: 15px;
+    transition: 0.4s;
+}
+button.accordion:hover {
+    background-color: #b6003a;
+}
+
+#mems {
+	padding: 20px;
+	max-width: 680px;
+	height: 340px;
+	outline-style: solid;
+	outline-color: #ff033e;
+}
+
+#albumArt {
+	padding: 18px;
+	width: 300px;
+	height: 300px;
+}
+
+div.panel {
+    padding: 0 18px;
+	display: none;
+}
+
+table {
+	color: black;
+}
+
+td {
+	text-align: left;
+}
+
+#footer {
+	padding: 1rem;
+	text-align: center;
+	position: bottom;
+	height: 50px;
+	background-color: #ff033e;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background-color: #650020;
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content {
+	width: 45%;
+	margin: 0px auto;
+	padding: 20px;
+	
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background:#650020;
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
